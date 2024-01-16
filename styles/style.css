@@ -398,6 +398,9 @@ ul{
 }
 
 
+
+
+
 /* newsletter section styles */
 
 .newsletter-container{
@@ -482,6 +485,51 @@ ul{
     
 }
 
+
+/* teaml-section styles */
+
+.team-container{
+    max-width: 1250px;
+    margin-bottom: 2rem;
+}
+
+.tesim-container{
+    border: 2px solid #ccc;
+    background: rgba(19, 19, 24, 0.05);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 1rem;
+}
+
+
+.tesim-container::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+
+  .tesim-container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+    
+
+  .tesim-container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .team-header{
+    text-align: center;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    
+  }
+
 /* footer section styles  */
 
 .full-width{
@@ -518,8 +566,9 @@ ul{
 }
 
 .footer-logo img{
-    width: 90px;
+    width: 5.62rem;
     object-fit: cover;
+
     
 }
 
@@ -562,4 +611,5 @@ ul{
     padding: 2.5rem;
 }
 
-    
+
+

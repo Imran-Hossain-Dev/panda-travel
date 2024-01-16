@@ -1,6 +1,7 @@
 /* mobail responsive styles */
 
 @media screen and (max-width: 576px) {
+    
 
     .banner-title{
         
@@ -78,10 +79,28 @@
 
         width: 100%;
         max-width: 100%;
+        margin-top: 2rem;
         
         
         
     }
+
+
+    /
+
+
+    /* team section */
+
+.tesim-container {
+    text-align: center;
+  }
+
+  .tesim-container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+
 
 
     /* newsletter section responsib */
@@ -106,8 +125,16 @@
 
 }
 
-.footer-icon{
-    gap: 1rem;
+.footer-up{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
+.footer-up img{
+    margin-left: 1.6rem;
+}
+
+}
