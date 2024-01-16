@@ -47,6 +47,19 @@
        
         
     }
+
+    /* why choose section responsiv */
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card-3{
+        width: 99%;
+        
+        
+    }
+
+    
     
     }
     

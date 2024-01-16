@@ -292,3 +292,61 @@ ul{
     grid-column: 6/span 8;
     margin-right: 1rem;
 }
+
+/* why choose section style */
+
+.choose-container{
+    max-width: 1250px;
+    
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+
+.choose-text{
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.card-1{
+    border-radius: 16px;
+    
+    background: rgba(251, 181, 99, 0.05);
+    padding: 1rem;
+}
+
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 1rem;
+}
+
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+.card-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
