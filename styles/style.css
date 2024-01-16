@@ -490,7 +490,9 @@ ul{
 
 .team-container{
     max-width: 1250px;
+    margin: 0 auto;
     margin-bottom: 2rem;
+
 }
 
 .tesim-container{
