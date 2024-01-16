@@ -10,6 +10,26 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+/* shered styles */
+
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.btn{
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
 
 /* starting header styles */
 
@@ -61,7 +81,7 @@ body{
 .banner-container{
     max-width: 1250px;
     margin: 0 auto;
-    border: 2px solid tomato;
+    
     background-image: linear-gradient(#131318, #13131800),url(../Images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -157,4 +177,61 @@ body{
 /* banner End styles */
 
 
+.popular-container{
+    max-width: 1250px;
+    
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.popular-text{
+    width: 40%;
+    
+    align-items: center;
+
+
+}
+
+.popular-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    
+}
+
+.popular-text ul{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.popular-text  li{
+    margin-bottom: 1rem;
+   
+
+    
+    
+}
+
+ul{
+    margin: 0;
+}
+
+
+.popular-img{
+    width: 50%;
+    
+
+}
+
+.popular-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+
+    
+}
