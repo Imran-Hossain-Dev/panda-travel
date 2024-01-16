@@ -82,9 +82,19 @@
         
         
     }
-    
-    
-    }
-    
 
 
+    /* newsletter section responsib */
+
+
+.newsletter-container{
+    flex-direction: column;
+}
+
+.newsletter-text{
+    width: 100%;
+}
+
+.Newsletter-img{
+    width: 100%;
+}
